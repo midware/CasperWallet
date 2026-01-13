@@ -16,7 +16,7 @@
         /// <summary>
         /// Klucz prywatny w formacie BASE64 (raw 32 bajty)
         /// Używany do podpisywania transakcji
-        /// ⚠️ NIGDY nie dziel się tym kluczem!
+        /// NIGDY nie dziel się tym kluczem!
         /// </summary>
         public string SecretKey { get; set; }
 
@@ -75,7 +75,7 @@
     {
         /// <summary>
         /// Seed phrase (24 słowa)
-        /// ⚠️ NIGDY nie przechowuj tego w plaintext w bazie danych!
+        /// NIGDY nie przechowuj tego w plaintext w bazie danych!
         /// </summary>
         public string[] SecretPhrase { get; set; }
 
