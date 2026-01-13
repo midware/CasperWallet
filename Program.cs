@@ -40,7 +40,7 @@ namespace CasperWallet
                 Console.WriteLine();
                 Console.WriteLine();
 
-                // ⚠️ CRITICAL WARNING
+                // CRITICAL WARNING
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("  SECURITY WARNING:");
                 Console.WriteLine("  • NEVER store seed phrase in plaintext");
